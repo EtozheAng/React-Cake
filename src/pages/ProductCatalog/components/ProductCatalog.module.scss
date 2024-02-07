@@ -1,0 +1,19 @@
+.wrapper {
+  padding: 78px 0 166px;
+}
+.title {
+  color: #e75c6b;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  margin-bottom: 20px;
+}
+.box {
+  display: flex;
+  gap: 20px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

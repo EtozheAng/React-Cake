@@ -1,0 +1,29 @@
+.wrapper {
+  width: 100%;
+  max-width: 330px;
+  height: fit-content;
+  padding: 20px 64px 20px 20px;
+  border-radius: 15px;
+  background: rgba(255, 252, 253, 0.3);
+}
+
+.item {
+  cursor: pointer;
+  margin-bottom: 26px;
+  font-family: 'Raleway';
+  font-size: 18px;
+  &:hover {
+    opacity: 0.5;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.active {
+  cursor: pointer;
+  margin-bottom: 26px;
+  color: #eb8794;
+  font-family: Montserrat Alternates;
+  font-size: 18px;
+  font-weight: 700;
+}

@@ -1,0 +1,52 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  margin: 120px 0 230px 0;
+  border-radius: 15px;
+  background: #fc9da7;
+  box-shadow: 0px 4px 26px 0px rgba(232, 92, 107, 0.4);
+}
+.box {
+  position: relative;
+  width: 588px;
+  padding: 50px 75px;
+}
+.text {
+  color: #fff;
+  font-family: fantasy;
+  text-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.1);
+  font-size: 74px;
+  font-weight: 400;
+  line-height: 115%;
+  margin-bottom: 30px;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.images {
+  position: absolute;
+  top: -15%;
+  left: 100%;
+}
+.error {
+  position: absolute;
+  top: -15%;
+  left: 35%;
+}
+.button {
+  min-width: 256px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e75c6b;
+  border-radius: 200px;
+  padding: 20px 0;
+  p {
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+}

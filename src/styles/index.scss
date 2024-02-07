@@ -1,0 +1,39 @@
+@import 'reset-css';
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: 'Montserrat Alternates';
+  font-size: 16px;
+  background: linear-gradient(89deg, #7ec7d3 0%, rgba(255, 221, 225, 0) 100%);
+  color: var(--black, #464646);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.button {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 200px;
+  height: 60px;
+  width: 216px;
+  text-align: center;
+}
+.title {
+  color: #e75c6b;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,38 @@
+.wrapper {
+  padding-bottom: 150px;
+}
+.title {
+  margin-bottom: 50px;
+}
+.content {
+  display: flex;
+  gap: 70px;
+  align-content: center;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 112.88%);
+  padding: 56px 90px 69px 50px;
+}
+
+.subtitle {
+  color: #e9657e;
+  font-family: 'Montserrat Alternates';
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.66px;
+  margin-bottom: 5px;
+}
+.text {
+  color: #464646;
+  font-family: 'Raleway';
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 130%;
+  margin-bottom: 45px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.image {
+  object-fit: contain;
+}
